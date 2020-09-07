@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tableOwners"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayOwnersActivity">
+
+    <TableRow
+        android:id="@+id/headerRow"
+        android:background="#4CAF50"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/ownerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:width="30dp"
+            android:text="@string/textOwnerName" />
+
+        <TextView
+            android:id="@+id/phoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF"
+            android:width="25dp"
+            android:text="@string/textPhoneNumber" />
+
+        <TextView
+            android:id="@+id/houseNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:width="20dp"
+            android:text="@string/textHouseNumber"
+            android:textColor="#FFFFFF" />
+    </TableRow>
+</TableLayout>

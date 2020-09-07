@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GAWA Family</string>
+    <string name="textView">Owners</string>
+    <string name="button1">Continue...</string>
+    <string name="textOwnerName">Owner Name</string>
+    <string name="textPhoneNumber">Phone Number</string>
+    <string name="textHouseNumber">House Number</string>
+</resources>
